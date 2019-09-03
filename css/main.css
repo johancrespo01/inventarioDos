@@ -1,0 +1,47 @@
+*{
+	margin:0px;
+	padding: 0px;
+	background-color: rgba(218, 218, 218, 0.9);
+}
+
+#contenedor_carga{
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	-webkit-transition: all  1s ease;
+	-moz-transition: all  1s ease;
+	-ms-transition: all  1s ease;
+	-o-transition: all  1s ease;
+	z-index: 10000;
+	background-color: transparent;
+}
+
+#carga{
+	display: block;
+	border: 13px solid #ccc;
+	border-top-color: #000;
+	border-top-style: groove;
+	height: 70px;
+	width: 70px;
+	border-radius: 100%;
+	background-color: transparent;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	-webkit-animation: girar 1.5s linear infinite;
+	-moz-animation: girar 1.5s linear infinite;
+	-ms-animation: girar 1.5s linear infinite;
+	-o-animation: girar 1.5s linear infinite;
+	animation: girar 1.5s linear infinite;
+
+}
+
+@keyframes girar{
+	from{ transform: rotate(0deg); }
+	to{ transform: rotate(360deg); }
+}

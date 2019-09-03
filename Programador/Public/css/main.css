@@ -1,0 +1,201 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.der{
+  float: right;
+}
+.izq{
+  float: left;
+}
+
+.barra_navegacion{
+	margin-top: 10px;
+
+}
+
+.tablaDiseño{
+	overflow-x:auto;
+}
+
+
+.dtHorizontalExampleWrapper {
+max-width: 600px;
+margin: 0 auto;
+}
+#dtHorizontalExample th, td {
+white-space: nowrap;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
+
+.barraBusqueda{
+	width: 100%;
+	background-color:;
+}
+.inputBusqueda{
+	float: right;
+	width: 90%;
+	border-radius: 10px;
+	padding: 7px;
+	margin-right: 10px;
+	margin-left: 13px;
+	border:none;
+}
+
+.masGrande{
+	text-align: center;
+	 font-size: 1.1rem;
+}
+
+.textoCentrado{
+	text-align: center;
+}
+
+
+/*CODIGO DE DATATABLE*/
+
+:after, :before {
+    box-sizing: border-box;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+i{
+  margin-bottom:4px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+.btn-app {
+    color: white;
+    box-shadow: none;
+    border-radius: 3px;
+    position: relative;
+    padding: 10px 15px;
+    margin: 0;
+    min-width: 60px;
+    max-width: 80px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+    font-size: 12px;
+    transition: all .2s;
+    background-color: steelblue !important;
+}
+
+.btn-app > .fa, .btn-app > .glyphicon, .btn-app > .ion {
+    font-size: 30px;
+    display: block;
+}
+
+.btn-app:hover {
+    border-color: #aaa;
+    transform: scale(1.1);
+}
+
+.pdf {
+  background-color: rgba(220,47,47,1) !important;
+  margin-right: 3px;
+}
+
+.excel {
+   background-color: rgba(60,162,60,1) !important;
+   margin-right: 3px;
+}
+
+.csv {
+     background-color: #e86c3a !important;
+     margin-right: 3px;
+}
+
+.imprimir {
+    background-color: #4682b4 !important;
+    max-height: 43px;
+    margin-right: 3px;
+}
+.copiar {
+	background-color: #4682b4 !important;
+    max-height: 43px;
+}
+
+/*
+Esto es opcional pero sirve para que todos los botones de exportacion se distribuyan de manera equitativa usando flexbox
+
+.flexcontent {
+    display: flex;
+    justify-content: space-around;
+}
+*/
+
+.selectTable{
+  height:40px;
+  float:right;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #4682b4;
+    border-color: #4682b4;
+    float: right;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #315f86;
+    border-color: #545b62;
+}
+
+
+
+.titulo-tabla{
+  color:#606263;
+  text-align:center;
+  margin-top:15px;
+  margin-bottom:15px;
+  font-weight:bold;
+}
+
+
+
+
+
+
+.inline{
+  display:inline-block;
+  padding:0;
+}
+
+/*FIN*/

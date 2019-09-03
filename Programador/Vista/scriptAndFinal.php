@@ -1,0 +1,16 @@
+  <script src="<?php echo PUBLIC_PATH ?>vendor/jquery/jquery.min.js"></script>
+  <script src="<?php echo PUBLIC_PATH ?>js/mod/pdfmake.min.js"></script>
+  <script src="<?php echo PUBLIC_PATH ?>js/mod/vfs_fonts.js"></script>
+  <script src="<?php echo PUBLIC_PATH ?>js/mod/datatables.min.js"></script>
+  <script src="<?php echo PUBLIC_PATH ?>vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="<?php echo PUBLIC_PATH; ?>js/jsMain.js"></script>
+  <script src="<?php echo PUBLIC_PATH; ?>js/sweet_alert.js"></script>
+  <script src="<?php echo PUBLIC_PATH ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo PUBLIC_PATH; ?>js/fileinput.min.js"></script>
+  <script src="<?php echo PUBLIC_PATH; ?>js/fileinput.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+  <script src="<?php echo PUBLIC_PATH ?>js/sb-admin-2.min.js"></script>
+  <script src="<?php echo PUBLIC_PATH ?>vendor/chart.js/Chart.min.js"></script>
+  <script src="<?php echo PUBLIC_PATH ?>js/demo/chart-area-demo.js"></script>
+  <script src="<?php echo PUBLIC_PATH ?>js/demo/chart-pie-demo.js"></script>
+  <script src="<?php echo PUBLIC_PATH ?>vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
